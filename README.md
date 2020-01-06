@@ -36,7 +36,8 @@ class User extends Model implements AggregateEventRoot
  }
 ```
 ---
-And release events
+And release events:
+---
 ```php
 
 use Mistery23\AggregateEvents\EventDispatcher;
