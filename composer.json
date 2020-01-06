@@ -1,0 +1,41 @@
+{
+    "name": "mistery23/laravel-aggregate-events",
+    "license": "MIT",
+    "homepage": "https://github.com/mistery23/laravel-aggregate-events.git",
+    "description": "laravel aggregate events",
+    "keywords":
+    [
+        "eloquent",
+        "model",
+        "laravel",
+        "ddd",
+        "events",
+        "aggregates",
+        "domain event"
+    ],
+    "type": "package",
+    "authors": [
+        {
+            "name": "mistery23",
+            "email": "mis_tery@ukr.net"
+        },
+        {
+            "name": "Oleksandr Barabolia",
+            "email": "alexandrbarabolya@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/contracts": "~5.8.0|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mistery23\\AggregateEvents\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
